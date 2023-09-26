@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prayer Beads</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=0.60, minimum-scale=0.60, maximum-scale=0.60">
+    <style>
+      *, body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      /* set grid template areas */
+      ul {
+        list-style: none;
+        display: grid;
+        grid-template-columns: 15vw 5vw 10vw 15vw 25vw 20vw 10vw;
+        grid-template-rows: 25vh 10vh 5vh 20vh 15vh 10vh 15vh;
+        grid-template-areas:
+          "H B B L C C D"
+          "H A A A C C D"
+          "O A A A F P D"
+          "I I Q Q F E E"
+          "I I Q Q M E E"
+          "I I G J J J J"
+          "N K K J J J J";
+      }
+
+      /* style grid area */
+      li {
+        padding: 5px;
+        border-width: 5px;
+        border-style: inset;
+        font-size: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <ul>
+      <li style="grid-area: A;">In hands they slide, a moment's quiet creed,</li>
+      <li style="grid-area: B;">Beads of reflection, guide every deed.</li>
+      <li style="grid-area: C;">Each bead a thought, a hope, a memory tight,</li>
+      <li style="grid-area: D;">Bound by life's thread, they shimmer in soft light.</li>
+      <li style="grid-area: E;">Echoes of thoughts, in still moments heard,</li>
+      <li style="grid-area: F;">Whispers of dreams, in every word.</li>
+      <li style="grid-area: G;">Journeying inward, a rhythm, a rhyme.</li>
+      <li style="grid-area: H;">A string of stories, each bead holds a tale,</li>
+      <li style="grid-area: I;">Moments of joy, wind's shift in the sail.</li>
+      <li style="grid-area: J;">Infinite tales, in finite beads thread,</li>
+      <li style="grid-area: K;">Voices of hearts, through ages they've led.</li>
+      <li style="grid-area: L;">Through beads we seek, the wisdom of old,</li>
+      <li style="grid-area: M;">Glimpses of tales, silently told.</li>
+      <li style="grid-area: N;">Life's fleeting dance, a bead's gentle slide,</li>
+      <li style="grid-area: O;">Capturing essence, where secrets reside.</li>
+      <li style="grid-area: P;">Moments in hands, past and foreseen,</li>
+      <li style="grid-area: Q;">The string of existence, forever a dream.</li>
+    </ul>
+
+  </body>
+</html>
